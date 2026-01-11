@@ -1,9 +1,8 @@
-ConceptMap: GenderMap
-Source: http://legacy.codes/gender
-Target: http://hl7.org/fhir/administrative-gender
+## Rulebook Layer (FHIR Shorthand)
 
-* group[0].element[0].code = #M
-* group[0].element[0].target.code = #male
+This layer defines semantic and structural governance rules.
 
-* group[0].element[1].code = #F
-* group[0].element[1].target.code = #female
+- FHIR profiles enforce mandatory attributes
+- ConceptMaps eliminate legacy magic strings
+- Ensures semantic integrity before data ingestion
+
