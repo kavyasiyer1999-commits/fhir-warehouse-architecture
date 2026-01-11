@@ -1,0 +1,8 @@
+services:
+  hapi-fhir:
+    image: hapiproject/hapi:v6.8.0
+    container_name: hapi_fhir_server
+    ports:
+      - "8080:8080"
+
+
